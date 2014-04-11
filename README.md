@@ -1,35 +1,31 @@
-# Guía de Iconos (WIP)
+# Icon fonts guide (WIP)
 
-Este documento busca optimizar el uso de iconos, facilitar su implementación y mejorar a nivel general la performance en cada proyecto. **El concepto rector es que se consuman solo los iconos que se utilizaran en cada iniciativa.**
+This brief document seeks to optimize the use of icons, make easier their implementation and improve the performance of each project. Its main goal is that each project uses only the icons that they really need. 
 
-Con este propósito se reviso el paquete de iconos que estábamos usando y se armo tres formatos según su implementación:
+Following this goal, the icon library was reviewed and three different packages were arranged: 
 
-####1. Paquete completo
+####1. Full package
 
-Incluye todos los iconos que usamos en MercadoLibre. Si bien la mayoría de son de [Font Awesome](http://fortawesome.github.io/Font-Awesome/cheatsheet/) hay excepciones: 
+Includes all the icons that we use in MercadoLibre. Most of them are courtesy of [Font Awesome](http://fortawesome.github.io/Font-Awesome/cheatsheet/) however are a few exceptions: 
 
-- Los iconos "icon-user" y "icon-users" corresponden a la librería "MFG Labs".
-- El icono "icon-key-inv" corresponde a la librería "Iconic".
-- Los iconos de tienda oficial, tarjeta de crédito, efectivo, moto y cesto de basura son propios y deben incluirse como svg (explicación más abajo) 
+- "icon-user" and "icon-users" are from "MFG Labs" library. You can get in Fontello. 
+- "icon-offical-store", "icon-card", "icon-cash", "icon-motorcycle" and "icon-trash" are custom so you must include their corresponding svg file. To do this, simple drag and drop your files into the browser when you are using [Fontello](http://www.fontello.com). 
 
-El paquete completo de iconos esta disponible para descargar en  (…)
+You can download the full package from (…) 
 
-####2. Paquete de componente 
+####2. Component package
 
-Incluye únicamente los iconos que necesite cierto componente. Ej. Header, footer, favoritos, etc. 
+Includes only the icons that a particular component need. Eg. Header or footer. 
 
-Disponibles para descargar en (…) 
+You can download packages from (…) 
 
-####3. Paquete personalizado: 
+###3. Custom package
 
-Incluye solamente los iconos que utilice el proyecto. Puede crearse siguiendo estos pasos: 
+Includes only the icons that a particular project needs. You can create your own package following this simple steps: 
 
-
-- Entrar a [Fontello](http://www.fontello.com)
-- Seleccionar los iconos que sean necesarios. En caso de necesitar algún icono que no este en las librerías (como por 	ejemplo el de tienda oficial)  puede sumarse el svg correspondiente arrastrandolo al navegador.
-- Dar un nombre al a tipografía desde la parte superior derecha de la pantalla.
-- Nombrar en ingles los iconos que sean necesarios desde la segunda pestaña.
-- Configurar el código y carácter desde la tercer pestaña. 
-- Descargar la tipografía. 
--  Incluir la tipografía en su proyecto: (descripción)
-
+- Go to [Fontello](http://www.fontello.com)
+- Choose the icons you need from the list or include your own svg files. 
+- Name your front from the upper right corner of the browser. 
+- If you included custom svg files, remember to name them from the "Customize names" tab.
+- In "Customize codes" setup your characters codes. 
+- Finally, **download** your font and include it to your project. 
