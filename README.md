@@ -24,7 +24,7 @@ Includes all the icons that we use in MercadoLibre. Most of them are courtesy of
 - `icon-offical-store`, `icon-card`, `icon-cash`, `icon-motorcycle` and `icon-trash` are custom so you must import their corresponding **SVG file** provided in this repo. To do this, simply drag and drop your files into [Fontello](http://www.fontello.com). 
 
 You can use the full package from:
-- [Chico UI CSS](http://static.mlstatic.com/org-img/ch/ui/1.1.1/index.html) through `ch-icon-*` classname.
+- [Chico UI](http://chico-ui.com.ar) CSS through `ch-icon-*` classname.
 - Standalone from CDN (Not available yet):
     - http://static.mlstatic.com/org-img/ch/assets/0.4/icons.eot
     - http://static.mlstatic.com/org-img/ch/assets/0.4/icons.svg
