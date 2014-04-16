@@ -61,7 +61,7 @@ Includes only the icons that a particular project needs. You can create your own
         src: url('buyingflow.eot?93575983#iefix') format('embedded-opentype'),
            url('buyingflow.woff?93575983') format('woff'),
            url('buyingflow.ttf?93575983') format('truetype'),
-           url('buyingflow.svg?93575983#fontello') format('svg');
+           url('buyingflow.svg?93575983#buyingflow') format('svg');
         font-style: normal;
         font-weight: normal;
     }
