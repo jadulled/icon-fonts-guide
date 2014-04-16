@@ -8,7 +8,7 @@
     - [Component package](#component-package)
     - [Custom package](#custom-package)
 - [How to use in your project](#how-to-use-in-your-project)
-- [Cross domain workaround for @font-face and Firefox](#cross-domain-workaround-for-font-face-and-Firefox)
+- [Cross domain workaround for @font-face and Firefox](#cross-domain-workaround-for-font-face-and-firefox)
 
 ## Goals
 This brief document seeks to **optimize the use of icons**, make easier their implementation and improve the scalability of each project. Its main goal is that **each project uses only the icons they really need**.
@@ -49,7 +49,7 @@ Includes only the icons that a particular project needs. You can create your own
 ## How to use in your project
 
 1. Upload the `.eot`, `.svg`, `.ttf` and `.woff` files to a folder on your project.
-2. Make sure these files are served up [supporting cross domain workarounds](#cross-domain-workaround-for-font-face-and-Firefox).
+2. Make sure these files are served up [supporting cross domain workarounds](#cross-domain-workaround-for-font-face-and-firefox).
 3. Import the font in your main stylesheet. In this example:
     - `buyingflow` is the name of the font.
     - `cho` is the namespace for the CSS selectors among the project.
