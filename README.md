@@ -1,4 +1,4 @@
-# Icon fonts guide (WIP)
+# Icon fonts guide
 
 ## Table of contents
 
